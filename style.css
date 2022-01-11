@@ -1,0 +1,32 @@
+body {
+    background-color: #313648;
+	color: white;
+	font-family: Helvetica Neue, Arial, sans;
+	font-weight: 200;
+	text-align: center;
+}
+
+#clock-container {
+    margin: 30px auto;
+    border: 4px solid;
+    border-color: #6cca89;
+    border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	display: table;
+	position: relative;
+}
+
+#clock-content {
+    display: table-cell;
+	vertical-align: middle;
+}
+
+#clock-counter {
+    font-size: 5em;
+}
+
+#clock-label {
+    margin-top: -20px;
+	font-size: 2em;
+}
